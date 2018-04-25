@@ -1,0 +1,8 @@
+package msg;
+
+message Account
+{
+	optional uint32 id = 1;
+	optional string accountId =2;
+	optional string password =3;
+}
