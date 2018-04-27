@@ -1,0 +1,5 @@
+在 csv 自己解析为数据实例的基础上，改造成了csv 转 Unity ScriptableObject Asset 资源的版本。
+
+使用步骤：
+1. 先更新表结构。即先把 csv 转为类文件，以及所需的 ScriptableObject 的子类文件。
+2. 更新表数据。 读取csv 数据，转为 unity 的资源 .asset 文件。 表结构不变不用再做步骤1.
